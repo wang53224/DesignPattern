@@ -1,6 +1,7 @@
 package 简单工厂.计算器.edition3;
 
 class OperationAdd extends Operation {
+     @Override
      public double getResult (){
          double result = 0;
          result = numberA + numberB;
@@ -9,6 +10,7 @@ class OperationAdd extends Operation {
 }
 
 class OperationSub extends Operation {
+    @Override
     public double getResult (){
         double result = 0;
         result = numberA - numberB;
@@ -17,6 +19,7 @@ class OperationSub extends Operation {
 }
 
 class OperationMul extends Operation {
+    @Override
     public double getResult (){
         double result = 0;
         result = numberA * numberB;
@@ -25,6 +28,7 @@ class OperationMul extends Operation {
 }
 
 class OperationDiv extends Operation {
+    @Override
     public double getResult (){
         double result = 0;
         result = numberA / numberB;
