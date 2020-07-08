@@ -16,6 +16,9 @@ public class OperationFactory {
             case "/":
                 ope = new OperationDiv();
                 break;
+            default:
+                System.out.println("输入运算符错误！");
+                System.exit(1);
         }
         return  ope;
     }

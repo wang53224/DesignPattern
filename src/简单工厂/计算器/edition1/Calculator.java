@@ -31,6 +31,10 @@ public class Calculator {
                     System.out.println("除数不能为零！");
                 }
                 break;
+            default:
+                System.out.println("输入运算符错误！");
+                System.exit(1);
+
         }
         System.out.println("结果是：" + result);
     }
