@@ -1,8 +1,8 @@
 package 简单工厂.计算器.edition3;
 
 public abstract class Operation {
-    double numberA;
-    double numberB;
+    protected double numberA;
+    protected double numberB;
 
     public void setNumber(double numberA, double numberB) {
         this.numberA = numberA;
